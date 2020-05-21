@@ -832,3 +832,150 @@ header {
 	font-weight: 400;
 	color: #c7b299;
 }
+
+.mobile {
+	min-height: 695px;
+	padding: 89px 0 0 0;
+	box-sizing: border-box;
+}
+
+.mobile-content {
+	margin: 0 auto;
+	width: 1115px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.mobile-text {
+	width: 664px;
+	padding: 105px 0 0 0;
+	box-sizing: border-box;
+}
+
+.mobile-text-title {
+	display: block;
+	font-family: Raleway;
+	font-size: 30px;
+	line-height: 1.2;
+	font-weight: 600;
+	color: #555555;
+	margin: 0 0 34px 0;
+}
+
+.mobile-text-p {
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #8c8c8c;
+	margin: 0 0 40px 0;
+}
+
+.mobile-text-list {
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 300;
+	color: #8c8c8c;
+	margin: 0 0 0 70px;
+	list-style-type: none;
+}
+
+.mobile-text-list-item {
+	position: relative;
+}
+
+.mobile-text-list-item:before {
+	content: "";
+	width: 20px;
+	height: 21px;
+	position: absolute;
+	left: -56px;
+	top: 4px;
+	background-image: url(../img/mobile_list_style.svg);
+	background-size: cover;
+}
+
+.numbers {
+	min-height: 300px;
+	background-color: #f4f5f8;
+	background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.numbers-item {
+	width: 207px;
+	height: 171px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.numbers-number {
+	font-family: Montserrat;
+	font-size: 48px;
+	line-height: 36px;
+	font-weight: 200;
+	color: #ffffff;
+}
+
+.numbers-text {
+	font-family: Montserrat;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #c7b299;
+}
+
+.numbers-item:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.posts {
+	min-height: 753px;
+	padding: 80px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.posts-title {
+	font-family: Raleway;
+	font-size: 30px;
+	line-height: 1.2;
+	font-weight: 600;
+	color: #555555;
+}
+
+.posts-text {
+	width: 769px;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #8c8c8c;
+}
+
+.posts-list {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.posts-item {
+	position: relative;
+	
+}
